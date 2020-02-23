@@ -1,0 +1,32 @@
+@media only screen and (max-width: 600px) {
+  .bio {
+    padding: 30px 25px; }
+  .work {
+    padding: 30px 25px; }
+  .work-container img {
+    width: 100%; }
+  .title h1 {
+    font-size: 24px; }
+  .title h2 {
+    font-size: 18px; }
+  .nav {
+    flex-direction: column; }
+  .title {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center; }
+  .menu {
+    justify-content: center; }
+  .process {
+    padding: 30px 25px; }
+  .process-image {
+    padding: 0px; }
+    .process-image img {
+      width: 100%; }
+  .footer {
+    padding: 30px 25px;
+    justify-content: center;
+    text-align: center; }
+  .footer-links {
+    justify-content: center; } }
