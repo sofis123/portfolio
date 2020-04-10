@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="798px" height="278px" viewBox="0 0 798 278" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>Survey Data</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Survey-Data" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#FFFFFF" x="0" y="0" width="798" height="278"></rect>
+        <circle id="Oval" fill="#F07256" cx="88.5" cy="88.5" r="88.5"></circle>
+        <text id="71,4%" font-family="Roboto-Medium, Roboto" font-size="30" font-weight="400" fill="#FFFFFF">
+            <tspan x="48" y="100">71,4%</tspan>
+        </text>
+        <text id="Don’t-know-what-caus" font-family="Roboto-Regular, Roboto" font-size="17" font-weight="normal" fill="#2F2D2E">
+            <tspan x="25.0114746" y="205">Don’t know what </tspan>
+            <tspan x="3.82373047" y="228">cause their migraines.</tspan>
+        </text>
+        <circle id="Oval" fill="#F07256" cx="295.5" cy="88.5" r="88.5"></circle>
+        <text id="50,2%" font-family="Roboto-Medium, Roboto" font-size="30" font-weight="400" fill="#FFFFFF">
+            <tspan x="255.024414" y="100">50,2%</tspan>
+        </text>
+        <text id="Say-that-migraine-di" font-family="Roboto-Regular, Roboto" font-size="17" font-weight="normal" fill="#2F2D2E">
+            <tspan x="228.188965" y="205">Say that migraine </tspan>
+            <tspan x="208.416504" y="228">disrupts their daily life.</tspan>
+        </text>
+        <circle id="Oval" fill="#F07256" cx="502.5" cy="88.5" r="88.5"></circle>
+        <text id="78,6%" font-family="Roboto-Medium, Roboto" font-size="30" font-weight="400" fill="#FFFFFF">
+            <tspan x="463.024414" y="100">78,6%</tspan>
+        </text>
+        <text id="Don’t-use-a-migraine" font-family="Roboto-Regular, Roboto" font-size="17" font-weight="normal" fill="#2F2D2E">
+            <tspan x="424.327393" y="205">Don’t use a migraine </tspan>
+            <tspan x="481.391113" y="228">diary.</tspan>
+        </text>
+        <circle id="Oval" fill="#F07256" cx="709.5" cy="88.5" r="88.5"></circle>
+        <text id="36,4%" font-family="Roboto-Medium, Roboto" font-size="30" font-weight="400" fill="#FFFFFF">
+            <tspan x="670.024414" y="100">36,4%</tspan>
+        </text>
+        <text id="Don’t-remember-to-ma" font-family="Roboto-Regular, Roboto" font-size="17" font-weight="normal" fill="#2F2D2E">
+            <tspan x="638.569824" y="205">Don’t remember to </tspan>
+            <tspan x="621.241943" y="228">make notes about their </tspan>
+            <tspan x="686.627197" y="251">crisis.</tspan>
+        </text>
+    </g>
+</svg>

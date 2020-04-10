@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1985px" height="684px" viewBox="0 0 1985 684" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>Problem</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M847,167 L1019.10156,167 C1019.10156,227.872396 1019.10156,285.71875 1019.10156,340.539062 C1019.10156,395.359375 1019.10156,450.179688 1019.10156,505 L847,505 M1019.10156,336 L1188,336" id="path-1"></path>
+        <filter x="-7.2%" y="-4.6%" width="112.6%" height="112.7%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="-3" dy="6" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feMorphology radius="5" operator="erode" in="SourceAlpha" result="shadowInner"></feMorphology>
+            <feOffset dx="-3" dy="6" in="shadowInner" result="shadowInner"></feOffset>
+            <feComposite in="shadowOffsetOuter1" in2="shadowInner" operator="out" result="shadowOffsetOuter1"></feComposite>
+            <feGaussianBlur stdDeviation="4.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-3" x="1188" y="158" width="786" height="354"></rect>
+        <filter x="-3.1%" y="-4.4%" width="105.5%" height="112.1%" filterUnits="objectBoundingBox" id="filter-4">
+            <feMorphology radius="5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="-3" dy="6" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="4.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.298432037 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-5" x="17" y="8" width="830" height="300"></rect>
+        <filter x="-3.0%" y="-5.2%" width="105.2%" height="114.3%" filterUnits="objectBoundingBox" id="filter-6">
+            <feMorphology radius="5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="-3" dy="6" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="4.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.298432037 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-7" x="17" y="364" width="830" height="300"></rect>
+        <filter x="-3.0%" y="-5.2%" width="105.2%" height="114.3%" filterUnits="objectBoundingBox" id="filter-8">
+            <feMorphology radius="5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="-3" dy="6" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="4.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.298432037 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Problem" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#FFFFFF" x="0" y="0" width="1985" height="684"></rect>
+        <g id="Combined-Shape" stroke-dasharray="50,20">
+            <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+            <use stroke="#D72483" stroke-width="10" xlink:href="#path-1"></use>
+        </g>
+        <g id="Rectangle" stroke-dasharray="50,20">
+            <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+            <use stroke="#FFFFFF" stroke-width="10" fill="#D72483" fill-rule="evenodd" xlink:href="#path-3"></use>
+        </g>
+        <g id="Rectangle" stroke-dasharray="50,20">
+            <use fill="black" fill-opacity="1" filter="url(#filter-6)" xlink:href="#path-5"></use>
+            <use stroke="#FFFFFF" stroke-width="10" fill="#D72483" fill-rule="evenodd" xlink:href="#path-5"></use>
+        </g>
+        <text id="How-might-we-help-do" font-family="Roboto-Regular, Roboto" font-size="36" font-weight="normal" fill="#FFFFFF">
+            <tspan x="1270.84277" y="310">How might we help dog owners to find </tspan>
+            <tspan x="1258.05469" y="358">the informations they need to hire a dog </tspan>
+            <tspan x="1324.28906" y="406">walker and trust on the service?</tspan>
+        </text>
+        <text id="As-dog-owner-I-want" transform="translate(416.500000, 158.000000) rotate(-360.000000) translate(-416.500000, -158.000000) " font-family="Roboto-Bold, Roboto" font-size="36" font-weight="bold" fill="#FFFFFF">
+            <tspan x="47" y="76">As dog owner</tspan>
+            <tspan x="266.287109" y="76" font-family="Roboto-Light, Roboto" font-weight="300"></tspan>
+            <tspan x="47" y="124">I want</tspan>
+            <tspan x="145.244141" y="124" font-family="Roboto-Light, Roboto" font-weight="300"> someone to help with my dog to keep </tspan>
+            <tspan x="47" y="172" font-family="Roboto-Light, Roboto" font-weight="300">his routine</tspan>
+            <tspan x="47" y="220">So I can</tspan>
+            <tspan x="176.9375" y="220" font-family="Roboto-Light, Roboto" font-weight="300"> work and be sure that my dog is </tspan>
+            <tspan x="47" y="268" font-family="Roboto-Light, Roboto" font-weight="300">happy.</tspan>
+        </text>
+        <g id="Rectangle" stroke-dasharray="50,20">
+            <use fill="black" fill-opacity="1" filter="url(#filter-8)" xlink:href="#path-7"></use>
+            <use stroke="#FFFFFF" stroke-width="10" fill="#D72483" fill-rule="evenodd" xlink:href="#path-7"></use>
+        </g>
+        <text id="As-dog-walker-I-want" transform="translate(431.000000, 514.000000) rotate(-360.000000) translate(-431.000000, -514.000000) " font-family="Roboto-Bold, Roboto" font-size="36" font-weight="bold" fill="#FFFFFF">
+            <tspan x="47" y="456">As dog walker</tspan>
+            <tspan x="273.880859" y="456" font-family="Roboto-Light, Roboto" font-weight="300"></tspan>
+            <tspan x="47" y="504">I want</tspan>
+            <tspan x="145.244141" y="504" font-family="Roboto-Light, Roboto" font-weight="300"> to offer my service to dog owners</tspan>
+            <tspan x="47" y="552">So I can</tspan>
+            <tspan x="176.9375" y="552" font-family="Roboto-Light, Roboto" font-weight="300"> work with something that I love and </tspan>
+            <tspan x="47" y="600" font-family="Roboto-Light, Roboto" font-weight="300">earn money.</tspan>
+        </text>
+    </g>
+</svg>

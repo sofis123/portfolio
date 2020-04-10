@@ -2,28 +2,64 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+  font-weight: lighter; }
 
 body {
-  background-color: #FCFCFC;
+  background-color: #FFFFFF;
   color: #333333;
-  font-family: 'Nunito', sans-serif;
-  font-size: 18px; }
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px; }
+
+strong {
+  font-weight: 800; }
 
 h1 {
-  font-family: 'Open Sans', sans-serif; }
+  font-family: 'Chivo', sans-serif;
+  font-size: 32px; }
 
 h2 {
-  font-family: 'Open Sans', sans-serif; }
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
+  font-weight: bold; }
+
+p {
+  line-height: 1.8; }
+
+.line-h2:after {
+  content: "";
+  display: block;
+  background-color: #A7E2E3;
+  height: 5px;
+  width: 100px;
+  margin: 0 auto;
+  margin-top: 10px; }
+
+h3 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px; }
+
+h4 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px; }
+
+.container {
+  margin: 0 auto;
+  max-width: 1024px; }
 
 .nav {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  background-color: #F8F8F8;
+  align-items: center;
+  background-color: #FFFFFF;
   padding: 20px 50px; }
-  .nav h2 {
-    color: #929292; }
+  .nav h1 {
+    color: #3B8089;
+    font-family: 'Chivo', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 5px; }
 
 .menu {
   display: flex;
@@ -33,41 +69,110 @@ h2 {
     padding: 10px; }
   .menu a {
     text-decoration: none;
-    color: #333333; }
+    color: #3B8089;
+    font-size: 14px; }
+  .menu a.active {
+    text-decoration: underline; }
 
 .bio {
-  padding: 50px 50px; }
+  padding: 50px;
+  align-items: center; }
+  .bio h1 {
+    color: #3B8089;
+    font-size: 32px;
+    margin-bottom: 10px; }
+  .bio p {
+    color: #3B8089;
+    font-size: 16px;
+    margin-top: 30px; }
+  .bio img {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    margin-left: 14px;
+    margin-top: -18px;
+    animation: slidein;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate; }
+
+@keyframes slidein {
+  from {
+    margin-left: 18px; }
+  to {
+    margin-left: -18px; } }
 
 .work {
-  width: 100%;
   padding: 50px 50px; }
   .work h2 {
-    margin-bottom: 20px; }
+    margin-bottom: 20px;
+    color: #3B8089;
+    font-size: 24px;
+    text-align: center; }
 
 .work-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   width: 100%; }
-  .work-container img {
-    width: 49%;
-    margin-bottom: 15px; }
+
+.box-container {
+  position: relative;
+  font-size: 3rem;
+  width: 50%; }
+
+.box-container a {
+  color: white;
+  font-size: 30px;
+  font-family: 'Open Sans', sans-serif;
+  text-decoration: none; }
+  .box-container a small {
+    font-size: 16px; }
+
+.box-container img {
+  margin: 0;
+  padding: 0;
+  display: block;
+  border: 0.4rem	solid white;
+  width: 100%; }
+
+.box-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #ccc;
+  opacity: 0;
+  text-align: center;
+  padding-top: 22.5%;
+  transition: 1s ease; }
+
+.box-overlay:hover {
+  opacity: 0.9; }
+
+.box-overlay small {
+  display: block; }
 
 .process {
   text-align: center;
   width: 100%;
   padding: 50px 50px; }
   .process h2 {
-    margin-bottom: 10px; }
+    margin-bottom: 20px;
+    color: #3B8089;
+    font-size: 24px; }
   .process h3 {
-    margin-bottom: 5px; }
+    margin-bottom: 15px;
+    color: #3B8089;
+    font-size: 18px; }
   .process p {
-    margin-bottom: 20px; }
+    margin-bottom: 20px;
+    color: #3B8089;
+    font-size: 16px; }
 
 .process-image {
   padding: 30px; }
-  .process-image img {
-    width: 50%; }
 
 .footer-links {
   display: flex;
@@ -81,7 +186,39 @@ h2 {
   display: flex;
   justify-content: center; }
 
+.testimonial-background {
+  background-color: #3B8089;
+  box-shadow: 14px 4px 12px rgba(0, 0, 0, 0.1);
+  position: relative; }
+
+.testimonial {
+  text-align: center;
+  padding: 50px 50px; }
+  .testimonial h2 {
+    margin-bottom: 20px;
+    color: #FFFFFF;
+    font-size: 24px; }
+  .testimonial p {
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: #FFFFFF; }
+
 .footer {
   display: flex;
-  justify-content: space-between;
-  padding: 20px 50px; }
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 50px;
+  color: #3B8089;
+  font-size: 14px;
+  background-color: #FFFFFF; }
+
+.contact {
+  padding: 10px;
+  text-align: center;
+  line-height: 20px; }
+  .contact h2 {
+    padding-bottom: 15px; }
+
+.copyright {
+  padding-bottom: 30px;
+  padding-top: 20px; }

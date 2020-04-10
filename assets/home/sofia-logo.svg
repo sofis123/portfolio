@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="82px" height="77px" viewBox="0 0 82 77" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>Logo</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Logo" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#FFFFFF" x="0" y="0" width="82" height="77"></rect>
+        <g id="Group" transform="translate(10.000000, 10.000000)" fill="#3B8089">
+            <text id="SG" font-family="FrederickatheGreat-Regular, Fredericka the Great" font-size="32" font-weight="normal" letter-spacing="-2.4">
+                <tspan x="8" y="31">SG</tspan>
+            </text>
+            <text id="UX-Designer" font-family="OpenSansCondensed-Light, Open Sans Condensed" font-size="16" font-style="condensed" font-weight="300" line-spacing="22">
+                <tspan x="0.08984375" y="52">UX Designer</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

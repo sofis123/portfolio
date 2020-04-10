@@ -1,10 +1,20 @@
 @media only screen and (max-width: 600px) {
+  .container {
+    margin: 0 auto;
+    width: 100%; }
   .bio {
     padding: 30px 25px; }
   .work {
     padding: 30px 25px; }
   .work-container img {
     width: 100%; }
+  .box-overlay {
+    opacity: 0.9; }
+  .box-container {
+    margin-bottom: 1rem;
+    width: 100%; }
+  .box-container a {
+    text-decoration: underline; }
   .title h1 {
     font-size: 24px; }
   .title h2 {
@@ -29,4 +39,50 @@
     justify-content: center;
     text-align: center; }
   .footer-links {
-    justify-content: center; } }
+    justify-content: center; }
+  .overview-top {
+    flex-direction: column;
+    padding: 20px 40px; }
+  .overview {
+    flex-direction: column;
+    padding: 25px 40px; }
+  .overview-title {
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 15px;
+    width: 100%; }
+  .overview-content {
+    width: 100%; }
+  .overview-information-card {
+    width: 100%;
+    padding: 15px; }
+  .overview-information {
+    padding-top: 15px; }
+    .overview-information p {
+      font-size: 14px; }
+      .overview-information p h3 {
+        font-size: 16px; }
+  .image-content img.image-gif {
+    width: 100%; }
+  .image-content-gif-gif {
+    width: 100%;
+    margin-left: 0px;
+    padding: 15px; }
+    .image-content-gif-gif p {
+      text-align: center; }
+  .description-next h2 {
+    color: #FFFFFF;
+    text-decoration: underline;
+    padding: 10px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    font-size: 20px; }
+  .description-next h3 {
+    color: #FFFFFF;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    font-size: 16px; }
+  .description-next p {
+    color: #FFFFFF;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    font-size: 14px; }
+  .next-project img {
+    width: 100%; } }

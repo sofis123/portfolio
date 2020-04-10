@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="634px" height="295px" viewBox="0 0 634 295" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>Survey</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Survey" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#FFFFFF" x="0" y="0" width="634" height="295"></rect>
+        <circle id="Oval" fill="#D72483" cx="109.5" cy="105.5" r="88.5"></circle>
+        <text id="73,3%" font-family="Roboto-Medium, Roboto" font-size="30" font-weight="400" fill="#FFFFFF">
+            <tspan x="69" y="117">73,3%</tspan>
+        </text>
+        <text id="Look-for-a-dog-walke" font-family="Roboto-Regular, Roboto" font-size="17" font-weight="normal" fill="#2F2D2E">
+            <tspan x="27.5795898" y="222">Look for a dog walker </tspan>
+            <tspan x="31.4726562" y="245">who has experience.</tspan>
+        </text>
+        <circle id="Oval" fill="#D72483" cx="316.5" cy="105.5" r="88.5"></circle>
+        <text id="21%" font-family="Roboto-Medium, Roboto" font-size="30" font-weight="400" fill="#FFFFFF">
+            <tspan x="288" y="117">21%</tspan>
+        </text>
+        <text id="Dog-Owners-want-to-h" font-family="Roboto-Regular, Roboto" font-size="17" font-weight="normal" fill="#2F2D2E">
+            <tspan x="239.344238" y="222">Dog Owners want to </tspan>
+            <tspan x="246.337646" y="245">have a report after </tspan>
+            <tspan x="280.37085" y="268">walkings.</tspan>
+        </text>
+        <circle id="Oval" fill="#D72483" cx="523.5" cy="105.5" r="88.5"></circle>
+        <text id="32%" font-family="Roboto-Medium, Roboto" font-size="30" font-weight="400" fill="#FFFFFF">
+            <tspan x="495" y="117">32%</tspan>
+        </text>
+        <text id="Dog-Owners-expect-fr" font-family="Roboto-Regular, Roboto" font-size="17" font-weight="normal" fill="#2F2D2E">
+            <tspan x="449.556641" y="222">Dog Owners expect </tspan>
+            <tspan x="447.332031" y="245">from dog walkers to </tspan>
+            <tspan x="441.712402" y="268">give attention to their </tspan>
+            <tspan x="502.287354" y="291">dogs.</tspan>
+        </text>
+    </g>
+</svg>
