@@ -27,6 +27,10 @@
     background-color: $geld-color;
 }
 
+.kleine {
+    background-color: $kleineeland-color;
+}
+
 
 .title-section {
     text-align: center;
@@ -209,3 +213,11 @@ display: block;
    }
   
 }
+
+.aspas-geldje {
+
+    &:before, &:after {
+        color: $geld-color;
+    }
+}
+

@@ -213,6 +213,9 @@ h4 {
   color: #3B8089;
   font-size: 14px;
   background-color: #FFFFFF; }
+  .footer a {
+    color: #3B8089;
+    text-decoration: none; }
 
 .contact {
   padding: 10px;

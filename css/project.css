@@ -17,6 +17,9 @@
 .geldje {
   background-color: #96AE8D; }
 
+.kleine {
+  background-color: #FDCD65; }
+
 .title-section {
   text-align: center;
   margin-top: 100px;
@@ -146,3 +149,6 @@
     line-height: 10px; }
   .quote:after {
     content: '\201D'; }
+
+.aspas-geldje:before, .aspas-geldje:after {
+  color: #96AE8D; }

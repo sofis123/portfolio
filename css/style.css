@@ -213,6 +213,9 @@ h4 {
   color: #3B8089;
   font-size: 14px;
   background-color: #FFFFFF; }
+  .footer a {
+    color: #3B8089;
+    text-decoration: none; }
 
 .contact {
   padding: 10px;
@@ -243,6 +246,9 @@ h4 {
 
 .geldje {
   background-color: #96AE8D; }
+
+.kleine {
+  background-color: #FDCD65; }
 
 .title-section {
   text-align: center;
@@ -373,6 +379,9 @@ h4 {
     line-height: 10px; }
   .quote:after {
     content: '\201D'; }
+
+.aspas-geldje:before, .aspas-geldje:after {
+  color: #96AE8D; }
 
 @media only screen and (max-width: 600px) {
   .container {
