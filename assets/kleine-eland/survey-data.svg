@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="796px" height="184px" viewBox="0 0 796 184" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>survey-data</title>
+    <desc>Created with Sketch.</desc>
+    <g id="survey-data" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#FFFFFF" x="0" y="0" width="796" height="184"></rect>
+        <text id="50%" font-family="Roboto-Medium, Roboto" font-size="30" font-weight="400" fill="#FDCD65">
+            <tspan x="61" y="31">50%</tspan>
+        </text>
+        <text id="Choose-toys-stores-b" font-family="Roboto-Regular, Roboto" font-size="17" font-weight="normal" fill="#2F2D2E">
+            <tspan x="15.401123" y="87">Choose toys stores </tspan>
+            <tspan x="22.6394043" y="110">based on reviews </tspan>
+            <tspan x="20.2155762" y="133">and referrals local </tspan>
+            <tspan x="54.5351562" y="156">business</tspan>
+        </text>
+        <text id="42%" font-family="Roboto-Medium, Roboto" font-size="30" font-weight="400" fill="#FDCD65">
+            <tspan x="261" y="31">42%</tspan>
+        </text>
+        <text id="Like-to-try-and-see" font-family="Roboto-Regular, Roboto" font-size="17" font-weight="normal" fill="#2F2D2E">
+            <tspan x="219.29834" y="87">Like to try and see </tspan>
+            <tspan x="229.798828" y="110">before they buy</tspan>
+        </text>
+        <text id="35%" font-family="Roboto-Medium, Roboto" font-size="30" font-weight="400" fill="#FDCD65">
+            <tspan x="461" y="31">35%</tspan>
+        </text>
+        <text id="Want-to-avoid-crowds" font-family="Roboto-Regular, Roboto" font-size="17" font-weight="normal" fill="#2F2D2E">
+            <tspan x="436.30249" y="87">Want to avoid </tspan>
+            <tspan x="428.030762" y="110">crowds &amp; queue</tspan>
+        </text>
+        <text id="40%" font-family="Roboto-Medium, Roboto" font-size="30" font-weight="400" fill="#FDCD65">
+            <tspan x="661" y="31">40%</tspan>
+        </text>
+        <text id="Look-for-aesthetics" font-family="Roboto-Regular, Roboto" font-size="17" font-weight="normal" fill="#2F2D2E">
+            <tspan x="615.571289" y="87">Look for aesthetics </tspan>
+            <tspan x="630.724365" y="110">when shopping</tspan>
+        </text>
+    </g>
+</svg>
