@@ -54,6 +54,8 @@ h4 {
   align-items: center;
   background-color: #FFFFFF;
   padding: 20px 50px; }
+  .nav img {
+    height: 80px; }
   .nav h1 {
     color: #3B8089;
     font-family: 'Chivo', sans-serif;

@@ -72,7 +72,9 @@ h4 {
     background-color: $white-color;
     padding: 20px 50px;
     
-
+    & img {
+        height: 80px;
+    }
     
 
     & h1{
