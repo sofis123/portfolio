@@ -385,6 +385,48 @@ h4 {
 .aspas-geldje:before, .aspas-geldje:after {
   color: #96AE8D; }
 
+.bio-background {
+  width: 100%;
+  position: relative;
+  box-shadow: 14px 4px 12px rgba(0, 0, 0, 0.1);
+  background: #333333;
+  display: flex;
+  align-items: center; }
+
+.bio-box {
+  display: flex; }
+
+.text {
+  padding: 190px 30px;
+  width: 50%; }
+  .text h2 {
+    color: #FFFFFF; }
+
+.profile {
+  width: 50%; }
+  .profile img {
+    width: 100%; }
+
+.history {
+  padding-top: 150px; }
+  .history p {
+    line-height: 2em;
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 30px; }
+
+.cv {
+  padding-bottom: 100px; }
+  .cv a {
+    color: #333333; }
+  .cv h3 {
+    width: 50%;
+    margin: 0 auto;
+    font-weight: normal; }
+
+.curiosity img {
+  width: 100%; }
+
 @media only screen and (max-width: 600px) {
   .container {
     margin: 0 auto;

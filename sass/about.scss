@@ -1,0 +1,67 @@
+@import 'variables';
+
+
+.bio-background {
+    width: 100%;
+    position: relative;
+    box-shadow: $shadow-2-nextproject;
+    background: $dark-color;
+    display: flex;
+    align-items: center;
+}
+
+.bio-box {
+    display: flex;
+}
+
+.text {
+    padding:190px 30px;
+    width: 50%;
+
+    & h2 {
+        color: $white-color;
+    }
+}
+
+.profile {
+    width: 50%;
+
+    & img {
+        width: 100%;
+    }
+}
+
+.history {
+    padding-top: 150px;
+
+    & p{
+        line-height: 2em;
+        width: 50%;
+        margin: 0 auto;
+        margin-bottom: 30px;
+
+    }
+}
+
+.cv {
+
+    padding-bottom: 100px;
+
+    & a {
+        color: $dark-color;
+    }
+
+    & h3{
+        width: 50%;
+        margin: 0 auto;
+        font-weight: normal;
+    }
+}
+
+.curiosity {
+    & img{
+        width: 100%;
+    }
+}
+
+
