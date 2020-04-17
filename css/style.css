@@ -536,4 +536,15 @@ h4 {
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
     font-size: 14px; }
   .next-project img {
-    width: 100%; } }
+    width: 100%; }
+  .profile {
+    width: 100%; }
+  .text {
+    width: 100%;
+    padding: 30px;
+    text-align: center; }
+  .history {
+    padding-top: 80px; }
+    .history p {
+      width: 100%;
+      padding: 0px 25px; } }

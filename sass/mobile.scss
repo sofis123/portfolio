@@ -160,7 +160,24 @@
         width: 100%;
     }
 
+.profile {
+    width: 100%;
+}
 
+.text {
+    width: 100%;
+    padding: 30px;
+    text-align: center;
+}
+
+.history {
+    padding-top: 80px;
+
+    & p {
+        width: 100%;
+        padding: 0px 25px;
+    }
+}
 
     
 }
