@@ -1,21 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="171px" height="191px" viewBox="0 0 171 191" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="226px" height="276px" viewBox="0 0 226 276" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
-    <title>Listenerskillssite</title>
+    <title>listener_skillsskillssite</title>
     <desc>Created with Sketch.</desc>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Artboard" transform="translate(-546.000000, -20.000000)" fill="#FFFFFF">
-            <g id="Card/skills" transform="translate(519.000000, 0.000000)">
-                <text id="Detective" font-family="OpenSans-Regular, Open Sans" font-size="20" font-weight="normal">
+        <g id="Desktop" transform="translate(-518.000000, -1950.000000)">
+            <g id="listener_skills" transform="translate(518.000000, 1950.000000)">
+                <rect id="Rectangle" fill="#3B8089" x="0" y="0" width="226" height="276"></rect>
+                <text id="Detective" font-family="OpenSans-Regular, Open Sans" font-size="20" font-weight="normal" fill="#FFFFFF">
                     <tspan x="75.5390625" y="111">Listener</tspan>
                 </text>
-                <text id="A-6th-sense-to-detec" font-family="OpenSans-Light, Open Sans" font-size="16" font-weight="300">
+                <text id="A-6th-sense-to-detec" font-family="OpenSans-Light, Open Sans" font-size="16" font-weight="300" fill="#FFFFFF">
                     <tspan x="27.7890625" y="144">Two ears that work with </tspan>
                     <tspan x="57.4765625" y="166">the intention to </tspan>
                     <tspan x="29.3632812" y="188">understand every bit of </tspan>
                     <tspan x="69.1757812" y="210">information.</tspan>
                 </text>
-                <g id="icon/Listener" transform="translate(84.000000, 20.000000)" fill-rule="evenodd" stroke-width="1">
+                <g id="icon/Listener" transform="translate(84.000000, 20.000000)" fill="#FFFFFF">
                     <g id="listening">
                         <path d="M16.1774194,30 C16.1774194,30.5344317 15.751331,30.9677419 15.2258065,30.9677419 C14.7002819,30.9677419 14.2741935,30.5344317 14.2741935,30 C14.2741935,29.4655683 14.7002819,29.0322581 15.2258065,29.0322581 C15.751331,29.0322581 16.1774194,29.4655683 16.1774194,30 Z" id="Path" fill-rule="nonzero"></path>
                         <path d="M25.6935484,30 C25.6935484,30.5344317 25.26746,30.9677419 24.7419355,30.9677419 C24.2164109,30.9677419 23.7903226,30.5344317 23.7903226,30 C23.7903226,29.4655683 24.2164109,29.0322581 24.7419355,29.0322581 C25.26746,29.0322581 25.6935484,29.4655683 25.6935484,30 Z" id="Path" fill-rule="nonzero"></path>

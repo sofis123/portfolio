@@ -64,4 +64,28 @@
     }
 }
 
+.skills {
+    box-shadow: $shadow-2-nextproject;
+    background: $primary-color;
+    position: relative;
+}
 
+.skills-box {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    padding-top: 50px;
+
+    & h2{
+            margin-bottom: 20px;
+            color: $white-color;
+            font-size: 24px; 
+    }
+}
+
+.skills-image {
+    padding-top: 30px;
+    padding-bottom: 50px;
+    width: 100%;
+}

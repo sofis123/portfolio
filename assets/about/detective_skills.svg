@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="162px" height="238px" viewBox="0 0 162 238" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="226px" height="276px" viewBox="0 0 226 276" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
-    <title>Detectiveskillssite</title>
+    <title>detective_skills</title>
     <desc>Created with Sketch.</desc>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Artboard" transform="translate(-69.000000, -20.000000)" fill="#FFFFFF">
-            <g id="Card/skills" transform="translate(37.000000, 0.000000)">
-                <text id="Detective" font-family="OpenSans-Regular, Open Sans" font-size="20" font-weight="normal">
+        <g id="Desktop" transform="translate(-38.000000, -1950.000000)">
+            <g id="detective_skills" transform="translate(38.000000, 1950.000000)">
+                <rect id="Rectangle" fill="#3B8089" x="0" y="0" width="226" height="276"></rect>
+                <text id="Detective" font-family="OpenSans-Regular, Open Sans" font-size="20" font-weight="normal" fill="#FFFFFF">
                     <tspan x="69.5185547" y="111">Detective</tspan>
                 </text>
-                <text id="A-6th-sense-to-detec" font-family="OpenSans-Light, Open Sans" font-size="16" font-weight="300">
+                <text id="A-6th-sense-to-detec" font-family="OpenSans-Light, Open Sans" font-size="16" font-weight="300" fill="#FFFFFF">
                     <tspan x="36.8984375" y="144">A 6th sense to detect </tspan>
                     <tspan x="72.0117188" y="166">the flaws of </tspan>
                     <tspan x="31.6640625" y="188">applications. Authentic </tspan>
@@ -17,7 +18,7 @@
                     <tspan x="40.1835938" y="232">right tools to get the </tspan>
                     <tspan x="35.5117188" y="254">work done effectively. </tspan>
                 </text>
-                <g id="icon/detective" transform="translate(84.000000, 20.000000)" fill-rule="evenodd" stroke-width="1">
+                <g id="icon/detective" transform="translate(84.000000, 20.000000)" fill="#FFFFFF">
                     <g id="magnifying-glass">
                         <path d="M58.277551,55.7387755 L44.0934694,41.3142857 C47.6093878,36.955102 49.7285714,31.3714286 49.7285714,25.2857143 C49.7285714,11.3265306 38.5908163,0 24.8642857,0 C11.1257143,0 0,11.3265306 0,25.2857143 C0,39.244898 11.1257143,50.5714286 24.8642857,50.5714286 C30.8485714,50.5714286 36.3271429,48.4285714 40.6136735,44.8530612 L54.7977551,59.2653061 C55.7610204,60.244898 57.3142857,60.244898 58.277551,59.2653061 C59.2408163,58.2979592 59.2408163,56.7061224 58.277551,55.7387755 Z M24.8642857,45.5387755 C13.8710204,45.5387755 4.93673469,36.4530612 4.93673469,25.2857143 C4.93673469,14.1183673 13.8710204,5.02040816 24.8642857,5.02040816 C35.8455102,5.02040816 44.7918367,14.1183673 44.7918367,25.2857143 C44.7918367,36.4530612 35.8455102,45.5387755 24.8642857,45.5387755 Z" id="Shape" fill-rule="nonzero"></path>
                     </g>

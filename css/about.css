@@ -39,3 +39,24 @@
 
 .curiosity img {
   width: 100%; }
+
+.skills {
+  box-shadow: 14px 4px 12px rgba(0, 0, 0, 0.1);
+  background: #3B8089;
+  position: relative; }
+
+.skills-box {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  padding-top: 50px; }
+  .skills-box h2 {
+    margin-bottom: 20px;
+    color: #FFFFFF;
+    font-size: 24px; }
+
+.skills-image {
+  padding-top: 30px;
+  padding-bottom: 50px;
+  width: 100%; }
