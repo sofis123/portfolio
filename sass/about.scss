@@ -12,10 +12,11 @@
 
 .bio-box {
     display: flex;
+    align-items: center;
 }
 
 .text {
-    padding:190px 30px;
+    padding:0px 30px;
     width: 50%;
 
     & h2 {

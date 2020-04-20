@@ -7,10 +7,11 @@
   align-items: center; }
 
 .bio-box {
-  display: flex; }
+  display: flex;
+  align-items: center; }
 
 .text {
-  padding: 190px 30px;
+  padding: 0px 30px;
   width: 50%; }
   .text h2 {
     color: #FFFFFF; }
@@ -42,7 +43,7 @@
 
 .skills {
   box-shadow: 14px 4px 12px rgba(0, 0, 0, 0.1);
-  background: #3B8089;
+  background: #2D3C6B;
   position: relative; }
 
 .skills-box {

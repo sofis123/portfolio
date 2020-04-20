@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "Made Tommy";
+  font-weight: bold,black,extrabold,light,medium,regular,thin;
+  src: url("./font/made-tommy-black.otf") format("otf"), url("./font/made-tommy-bold.otf") format("otf"), url("./font/made-tommy-extrabold.otf") format("otf"), url("./font/made-tommy-light.otf") format("otf"), url("./font/made-tommy-medium.otf") format("otf"), url("./font/made-tommy-regular.otf") format("otf"), url("./font/made-tommy-thin.otf") format("otf"); }
+
 * {
   margin: 0;
   padding: 0;
@@ -8,18 +13,18 @@
 body {
   background-color: #FFFFFF;
   color: #333333;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Made Tommy', sans-serif;
   font-size: 16px; }
 
 strong {
   font-weight: 800; }
 
 h1 {
-  font-family: 'Chivo', sans-serif;
+  font-family: 'Made Tommy', sans-serif;
   font-size: 32px; }
 
 h2 {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Made Tommy', sans-serif;
   font-size: 24px;
   font-weight: bold; }
 
@@ -29,7 +34,7 @@ p {
 .line-h2:after {
   content: "";
   display: block;
-  background-color: #A7E2E3;
+  background-color: #FF0081;
   height: 5px;
   width: 100px;
   margin: 0 auto;
@@ -37,11 +42,11 @@ p {
   text-align: center; }
 
 h3 {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Made Tommy', sans-serif;
   font-size: 18px; }
 
 h4 {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Made Tommy', sans-serif;
   font-size: 14px; }
 
 .container {
@@ -58,7 +63,7 @@ h4 {
   .nav img {
     height: 80px; }
   .nav h1 {
-    color: #3B8089;
+    color: #2D3C6B;
     font-family: 'Chivo', sans-serif;
     font-size: 18px;
     font-weight: bold;
@@ -72,8 +77,8 @@ h4 {
     padding: 10px; }
   .menu a {
     text-decoration: none;
-    color: #3B8089;
-    font-size: 14px; }
+    color: #2D3C6B;
+    font-size: 16px; }
   .menu a.active {
     text-decoration: underline; }
 
@@ -81,11 +86,11 @@ h4 {
   padding: 50px;
   align-items: center; }
   .bio h1 {
-    color: #3B8089;
+    color: #2D3C6B;
     font-size: 32px;
     margin-bottom: 10px; }
   .bio p {
-    color: #3B8089;
+    color: #2D3C6B;
     font-size: 16px;
     margin-top: 30px; }
   .bio img {
@@ -94,6 +99,7 @@ h4 {
     position: absolute;
     margin-left: 14px;
     margin-top: -18px;
+    padding-left: 15px;
     animation: slidein;
     animation-duration: 2s;
     animation-iteration-count: infinite;
@@ -109,7 +115,7 @@ h4 {
   padding: 50px 50px; }
   .work h2 {
     margin-bottom: 20px;
-    color: #3B8089;
+    color: #2D3C6B;
     font-size: 24px;
     text-align: center; }
 
@@ -127,7 +133,7 @@ h4 {
 .box-container a {
   color: white;
   font-size: 30px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Made Tommy', sans-serif;
   text-decoration: none; }
   .box-container a small {
     font-size: 16px; }
@@ -163,15 +169,15 @@ h4 {
   padding: 50px 50px; }
   .process h2 {
     margin-bottom: 20px;
-    color: #3B8089;
+    color: #2D3C6B;
     font-size: 24px; }
   .process h3 {
     margin-bottom: 15px;
-    color: #3B8089;
+    color: #2D3C6B;
     font-size: 18px; }
   .process p {
     margin-bottom: 20px;
-    color: #3B8089;
+    color: #2D3C6B;
     font-size: 16px; }
 
 .process-image {
@@ -192,7 +198,7 @@ h4 {
   justify-content: center; }
 
 .testimonial-background {
-  background-color: #3B8089;
+  background-color: #2D3C6B;
   box-shadow: 14px 4px 12px rgba(0, 0, 0, 0.1);
   position: relative; }
 
@@ -213,11 +219,11 @@ h4 {
   flex-direction: column;
   align-items: center;
   padding: 20px 50px;
-  color: #3B8089;
+  color: #2D3C6B;
   font-size: 14px;
   background-color: #FFFFFF; }
   .footer a {
-    color: #3B8089;
+    color: #2D3C6B;
     text-decoration: none; }
 
 .contact {

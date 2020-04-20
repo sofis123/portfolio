@@ -26,7 +26,7 @@
   margin-bottom: 60px; }
   .title-section h2 {
     font-weight: 200;
-    color: #3B8089; }
+    color: #2D3C6B; }
 
 .overview-top {
   padding: 0px 40px;
@@ -39,7 +39,7 @@
 .h2-liveabove:before {
   content: "";
   display: block;
-  background-color: #3B8089;
+  background-color: #2D3C6B;
   height: 5px;
   width: 100px;
   margin: 0 0;
