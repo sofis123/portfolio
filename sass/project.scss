@@ -57,17 +57,18 @@
 .h2-liveabove:before {
         content:"";
         display: block;
-        background-color:$primary-color;
+        background-color:$primary-color-light;
         height: 5px;
         width: 100px;
         margin: 0 0;
-        margin-top: 10px;   
+        margin-bottom: 5px;   
     }
 
 .overview-title {
     padding-left: 40px;
     padding-right: 30px;
     width: 30%;
+    color: $primary-color;
 }
 
 .overview-content {
