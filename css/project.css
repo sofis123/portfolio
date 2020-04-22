@@ -39,23 +39,25 @@
 .h2-liveabove:before {
   content: "";
   display: block;
-  background-color: #2D3C6B;
+  background-color: #FF0081;
   height: 5px;
   width: 100px;
   margin: 0 0;
-  margin-top: 10px; }
+  margin-bottom: 5px; }
 
 .overview-title {
   padding-left: 40px;
   padding-right: 30px;
-  width: 30%; }
+  width: 30%;
+  color: #2D3C6B; }
 
 .overview-content {
   width: 70%; }
   .overview-content p {
     padding-bottom: 20px; }
   .overview-content ul {
-    margin-left: 20px; }
+    margin-left: 20px;
+    line-height: 2em; }
 
 .overview-information-card {
   display: flex;
