@@ -98,4 +98,6 @@
     padding-top: 80px; }
     .history p {
       width: 100%;
-      padding: 0px 25px; } }
+      padding: 0px 25px; }
+  .carrousel-content {
+    overflow-x: scroll; } }

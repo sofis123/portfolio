@@ -202,17 +202,64 @@ h4 {
   box-shadow: 14px 4px 12px rgba(0, 0, 0, 0.1);
   position: relative; }
 
-.testimonial {
-  text-align: center;
-  padding: 50px 50px; }
-  .testimonial h2 {
+.carrousel-container {
+  overflow: hidden; }
+  .carrousel-container h2 {
     margin-bottom: 20px;
     color: #FFFFFF;
-    font-size: 24px; }
+    font-size: 24px;
+    text-align: center;
+    margin-top: 50px; }
+  .carrousel-container input {
+    display: none; }
+  .carrousel-container #slide1:checked ~ .carrousel-content .testimonial:first-child {
+    margin-left: 0%; }
+  .carrousel-container #slide2:checked ~ .carrousel-content .testimonial:first-child {
+    margin-left: -100%; }
+  .carrousel-container #slide1:checked ~ .carousel-indicators label:first-child {
+    background-color: #FFFFFF; }
+  .carrousel-container #slide2:checked ~ .carousel-indicators label:nth-child(2) {
+    background-color: #FFFFFF; }
+
+.carrousel-content {
+  display: flex;
+  overflow-x: hidden;
+  flex-wrap: nowrap; }
+
+.testimonial {
+  text-align: center;
+  padding: 0px 50px 0px 50px;
+  scroll-snap-align: start;
+  flex-shrink: 0;
+  width: 100%;
+  transform-origin: center center;
+  transform: scale(1);
+  transition: transform 0.5s;
+  transition: margin 700ms;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  font-size: 100px; }
   .testimonial p {
     margin-bottom: 20px;
     font-size: 18px;
     color: #FFFFFF; }
+
+.carousel-indicators {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px; }
+
+.carousel-indicators label {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin: 10px;
+  cursor: pointer;
+  border: 1px solid #FFFFFF;
+  border-radius: 10px; }
 
 .footer {
   display: flex;

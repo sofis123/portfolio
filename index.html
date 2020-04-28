@@ -3,6 +3,7 @@
     <link href="./css/style.css" rel="stylesheet">
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script src="./js/carousel.js"></script>
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-163883013-1"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
@@ -56,12 +57,12 @@
     </div>
 
 
-  <div class="bio container">
-      <h1><strong> Hi, I’m Sofia Gomez</strong>
-      <br> I love design, product management and rowing <img src="./assets/Home/emoji-icon-glossy-01-05-person-person-sport-woman-rowing-variation-blond-fitz-1-2-72dpi-forPersonalUseOnly.png" alt="rowing"></h1>
-      <p>A Brazilian UX Designer based in the Netherlands. I love building better experiences for users through design thinking and user-centric design. Working remotely and physically for projects around the globe.
-      </p>
-  </div>
+    <div class="bio container">
+        <h1><strong> Hi, I’m Sofia Gomez</strong>
+        <br> I love design, product management and rowing <img src="./assets/Home/emoji-icon-glossy-01-05-person-person-sport-woman-rowing-variation-blond-fitz-1-2-72dpi-forPersonalUseOnly.png" alt="rowing"></h1>
+        <p>A Brazilian UX Designer based in the Netherlands. I love building better experiences for users through design thinking and user-centric design. Working remotely and physically for projects around the globe.
+        </p>
+    </div>
 
     <div class="work container">
       <h2 class="line-h2">WORK</h2>
@@ -135,14 +136,31 @@
     </div>
 
     <div class="testimonial-background">
-      <div class="testimonial container">
-      <h2 class="line-h2">TESTIMONIAL</h2>
-      <p>Sofia reframed the Amo portal with UX research and activities to improve the customer experience. I loved the immersion and the result that came from it.
-      </p>
-      <p> <strong>Michelle Andreazza, CEO at Amo Bem Estar</strong> </p>
-
-     </div>
-  </div>
+      <div class="carrousel-container container">
+        <h2 class="line-h2">TESTIMONIAL</h2>
+        <input checked type=radio name="slider" id="slide1" />
+        <input type=radio name="slider" id="slide2" />
+        <div class="carrousel-content"> 
+          <div class="testimonial">
+            <p>"Sofia helped us creating a smooth user experience for our dog walking platform. We could not be more thankful for her work dynamics and deliveries".
+            </p>
+            <p> <strong>Caetano Altafin, CEO at GoApp.pet</strong> </p>
+          </div>
+          <div class="testimonial">
+            <p>"Sofia reframed the Amo portal with UX research and activities to improve the customer experience. I loved the immersion and the result that came from it".
+            </p>
+            <p> <strong>Michelle Andreazza, CEO at Amo Bem Estar</strong> </p>
+          </div>
+        </div>
+        <div class="carousel-indicators">
+          <label for="slide1">
+          </label>
+          <label for="slide2">
+          </label>
+        </div>
+      </div>
+      
+    </div>
 
     <footer>
 

@@ -1,187 +1,186 @@
 @import 'variables';
 @media only screen and (max-width: 600px) {
-
-
-    .container {
-        margin: 0 auto;
-        width: 100%;
-        }
-
-    .bio {
-        padding: 30px 25px;
-
-
-    }
-
-    .work {
-        padding: 30px 25px;
-    }
-
-    .work-container img {
-        width:100%;
-    }
-
-    .box-overlay{
-        opacity: 0.9;
-    }
-    .box-container {
-        margin-bottom: 1rem;
-        width: 100%;
-    }
-
-    .box-container a{
-        text-decoration: underline;
-    }
-
-    .title h1 {
-        font-size: 24px;
-    }
-
-    .title h2 {
-        font-size: 18px;
-    }
-
-    .nav {
-        flex-direction: column;
-    }
-
-    .menu {
-        padding-top: 10px;
-    }
-
-    .title {
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .menu{
-        justify-content: center;
-    }
-
-    .process {
-        padding: 30px 25px;
-    }
-
-    .process-image {
-        padding: 0px;
-
-        & img {
-            width: 100%;    
-        }    
-    }
-
-    .footer {
-        padding: 30px 25px;
-        justify-content: center;
-        text-align: center;
-    }
-
-    .footer-links {
-        justify-content: center;
-    }
-
-    .overview-top {
-        flex-direction: column;
-        padding: 20px 40px;
-    }
-
-    .overview {
-        flex-direction: column;
-        padding: 25px 40px;
-    }
-
-    .overview-title {
-        padding-left: 0px;
-        padding-right: 0px;
-        padding-bottom: 15px;
-        width: 100%;
-    }
-
-    .overview-content {
-        width: 100%;
-    }
-
-    .overview-information-card {
-        width: 100%;
-        padding: 15px;
-    }
-
-    .overview-information {
-        padding-top: 15px;
-
-        & p{
-            font-size: 14px;
-
-        & h3 {
-            font-size: 16px;
-        }    
-        }
-    }
-    .image-content {
-
-        & img.image-gif {
-            width: 100%;
-        }
-    }
-
-    .image-content-gif-gif {
-        width: 100%;
-        margin-left: 0px;
-        padding: 15px;
-    
-        & p {
-            text-align: center;
-        }
-    }
-
-    .description-next {
-
-         & h2 { 
-             color: $white-color;
-             text-decoration: underline;
-             padding: 10px;
-             text-shadow: $shadow-text;
-             font-size: 20px ;
-    
-         }
-    
-         & h3 { 
-            color: $white-color;
-            text-shadow: $shadow-text;
-            font-size: 16px;
-        }
-
-        p { 
-            color: $white-color;
-            text-shadow: $shadow-text;
-            font-size: 14px;
-        }
-    }
-
-    .next-project img {
-        width: 100%;
-    }
-
-.profile {
+  .container {
+    margin: 0 auto;
     width: 100%;
-}
+  }
 
-.text {
-    width: 100%;
-    padding: 30px;
-    text-align: center;
-}
+  .bio {
+      padding: 30px 25px;
 
-.history {
-    padding-top: 80px;
 
-    & p {
-        width: 100%;
-        padding: 0px 25px;
-    }
-}
+  }
 
-    
+  .work {
+      padding: 30px 25px;
+  }
+
+  .work-container img {
+      width:100%;
+  }
+
+  .box-overlay{
+      opacity: 0.9;
+  }
+  .box-container {
+      margin-bottom: 1rem;
+      width: 100%;
+  }
+
+  .box-container a{
+      text-decoration: underline;
+  }
+
+  .title h1 {
+      font-size: 24px;
+  }
+
+  .title h2 {
+      font-size: 18px;
+  }
+
+  .nav {
+      flex-direction: column;
+  }
+
+  .menu {
+      padding-top: 10px;
+  }
+
+  .title {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      text-align: center;
+  }
+
+  .menu{
+      justify-content: center;
+  }
+
+  .process {
+      padding: 30px 25px;
+  }
+
+  .process-image {
+      padding: 0px;
+
+      & img {
+          width: 100%;    
+      }    
+  }
+
+  .footer {
+      padding: 30px 25px;
+      justify-content: center;
+      text-align: center;
+  }
+
+  .footer-links {
+      justify-content: center;
+  }
+
+  .overview-top {
+      flex-direction: column;
+      padding: 20px 40px;
+  }
+
+  .overview {
+      flex-direction: column;
+      padding: 25px 40px;
+  }
+
+  .overview-title {
+      padding-left: 0px;
+      padding-right: 0px;
+      padding-bottom: 15px;
+      width: 100%;
+  }
+
+  .overview-content {
+      width: 100%;
+  }
+
+  .overview-information-card {
+      width: 100%;
+      padding: 15px;
+  }
+
+  .overview-information {
+      padding-top: 15px;
+
+      & p{
+          font-size: 14px;
+
+      & h3 {
+          font-size: 16px;
+      }    
+      }
+  }
+  .image-content {
+
+      & img.image-gif {
+          width: 100%;
+      }
+  }
+
+  .image-content-gif-gif {
+      width: 100%;
+      margin-left: 0px;
+      padding: 15px;
+  
+      & p {
+          text-align: center;
+      }
+  }
+
+  .description-next {
+
+        & h2 { 
+            color: $white-color;
+            text-decoration: underline;
+            padding: 10px;
+            text-shadow: $shadow-text;
+            font-size: 20px ;
+  
+        }
+  
+        & h3 { 
+          color: $white-color;
+          text-shadow: $shadow-text;
+          font-size: 16px;
+      }
+
+      p { 
+          color: $white-color;
+          text-shadow: $shadow-text;
+          font-size: 14px;
+      }
+  }
+
+  .next-project img {
+      width: 100%;
+  }
+
+  .profile {
+      width: 100%;
+  }
+
+  .text {
+      width: 100%;
+      padding: 30px;
+      text-align: center;
+  }
+
+  .history {
+      padding-top: 80px;
+
+      & p {
+          width: 100%;
+          padding: 0px 25px;
+      }
+  }
+  .carrousel-content {
+    overflow-x: scroll;
+  }
 }
