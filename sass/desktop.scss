@@ -169,13 +169,81 @@ h4 {
 
 }
 
+.card-container {
+    display: flex;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.card-container.reverse {
+    flex-direction: row-reverse;
+}
+
+.image-container {
+    background-color: $goapp-color;
+    width: 50%;
+    display: flex;
+    align-items: center;
+
+    & img {
+        width: 100%;
+    }
+}
+
+.explanation-container {
+    background-color: $grey-card-color;
+    width: 50%;
+    padding: 25px;
+
+    & h3 {
+        font-size: 18px; 
+        font-weight: bold;
+    }
+
+    & h4 {
+        margin-top: 10px;
+        display: inline-block;
+        padding: 2px 5px;
+        border: 1px solid $secondary-color-gray;
+        border-radius: 23px;
+        font-size: 12px;
+        font-weight: normal;
+        margin-right: 5px;
+    }
+
+    & p {
+        padding-top: 20px;
+        line-height: 1.4em;
+    }
+
+    & .view-button {
+        padding: 10px 12px;
+        display: inline-block;
+        background-color: #2D3C6B;
+        border-radius: 23px;
+        margin-top: 30px;
+        font-size: 12px;
+        color: white;
+        text-decoration: none;
+        font-weight: normal;
+    }
+
+    & .tag {
+        width: 100%;
+        display: flex;
+    }
+}
+
+
+
+
 .work-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     width: 100%;
 }
-
 
 .box-container {
     position: relative;
