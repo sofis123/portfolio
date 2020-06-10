@@ -97,6 +97,19 @@
       width: 100%;
   }
 
+  .overview.solution {
+    & .image-content {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        width: 100%;
+    }
+
+    & img {
+      width: 50%;
+      }
+  }
+
   .overview-content {
       width: 100%;
   }
