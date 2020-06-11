@@ -48,6 +48,7 @@
     padding: 0px 40px;
     margin-top: 100px;
     display: flex;
+    padding-bottom: 50px;
 }
 
 .overview {
@@ -169,6 +170,14 @@
         font-size: 14px;
     }
 
+}
+
+.desktop {
+    
+    & img {
+        padding-top: ;
+        width: 100%;
+    }
 }
 
 .image-content {
