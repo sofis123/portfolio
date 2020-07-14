@@ -7,7 +7,6 @@
 
     & img {
         width: 70%;
-        margin-top: 10px;
     }
 }
 
@@ -207,7 +206,7 @@
 
 .image-content-gif {
     display: flex;
-    flex: wrap;
+    flex-wrap: wrap;    
     flex-direction: row;
 
     & img {
@@ -231,7 +230,7 @@
     box-shadow: $shadow-2-nextproject;
 
     & img {
-        opacity: 0.15;
+        opacity: 0.1;
         width: 50%;
         filter: blur(4px);
      }
@@ -294,4 +293,37 @@ display: block;
         color: $geld-color;
     }
 }
+
+.layout-grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100%;
+    padding-bottom: 100px;  
+    
+    
+    & .description {
+        width: 50%;
+    }
+
+    & p {
+        padding-top: 30px;
+    }
+
+    & .mockup-high {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    }
+
+
+    & img {
+        width: 50%;
+    }
+}
+
+
+    .reverse {
+        flex-direction: row-reverse;
+    }
 

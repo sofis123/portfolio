@@ -215,6 +215,14 @@
       width: 100%;
   }
 
+  .layout-grid {
+      flex-direction: column;
+
+      & .description {
+          width: 100%;
+      }
+  }
+
 
 
 }

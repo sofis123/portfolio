@@ -333,3 +333,6 @@ h4 {
 .copyright {
   padding-bottom: 30px;
   padding-top: 20px; }
+
+.nopadding {
+  padding: 0px; }

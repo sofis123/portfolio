@@ -115,4 +115,8 @@
   .image-container {
     width: 100%; }
   .explanation-container {
-    width: 100%; } }
+    width: 100%; }
+  .layout-grid {
+    flex-direction: column; }
+    .layout-grid .description {
+      width: 100%; } }
