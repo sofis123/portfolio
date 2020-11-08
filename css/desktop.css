@@ -82,13 +82,27 @@ h4 {
   .menu a.active {
     text-decoration: underline; }
 
+.fade-in {
+  animation: fade-in 2s; }
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    margin-bottom: 100px;
+    margin-top: 100px; }
+  to {
+    opacity: 1;
+    margin-bottom: 10px;
+    margin-top: 0px; } }
+
 .bio {
   padding: 50px;
   align-items: center; }
   .bio h1 {
     color: #2D3C6B;
     font-size: 32px;
-    margin-bottom: 10px; }
+    margin-bottom: 10px;
+    margin-top: 0px; }
   .bio p {
     color: #2D3C6B;
     font-size: 16px;
@@ -127,19 +141,27 @@ h4 {
 
 .card-container.reverse {
   flex-direction: row-reverse; }
+  .card-container.reverse .image-container {
+    transform: translateX(50%); }
+  .card-container.reverse .explanation-container {
+    transform: translateX(-50%); }
 
 .image-container {
   background-color: #E887BA;
   width: 50%;
   display: flex;
-  align-items: center; }
+  align-items: center;
+  transform: translateX(-50%);
+  opacity: 0; }
   .image-container img {
     width: 100%; }
 
 .explanation-container {
   background-color: #F8F9FF;
   width: 50%;
-  padding: 25px; }
+  padding: 25px;
+  transform: translateX(50%);
+  opacity: 0; }
   .explanation-container h3 {
     font-size: 18px;
     font-weight: bold; }
@@ -168,6 +190,18 @@ h4 {
   .explanation-container .tag {
     width: 100%;
     display: flex; }
+
+.image-container,
+.explanation-container {
+  transition: all 1000ms;
+  transition-timing-function: ease-in-out; }
+
+.image-container.appear,
+.explanation-container.appear,
+.card-container.reverse .image-container.appear,
+.card-container.reverse .explanation-container.appear {
+  transform: translateX(0);
+  opacity: 1; }
 
 .work-container {
   display: flex;
