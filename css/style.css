@@ -625,11 +625,12 @@ h4 {
     margin-bottom: 30px; }
 
 .cv {
-  padding-bottom: 100px; }
+  padding-bottom: 100px;
+  display: flex;
+  justify-content: center; }
   .cv a {
     color: #333333; }
   .cv h3 {
-    width: 50%;
     margin: 0 auto;
     font-weight: normal; }
 
