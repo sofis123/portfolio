@@ -52,6 +52,12 @@
   width: 30%;
   color: #2D3C6B; }
 
+.sdg {
+  display: flex; }
+
+.sdg img {
+  width: 20%; }
+
 .overview-content {
   width: 70%; }
   .overview-content p {
