@@ -18,6 +18,10 @@
     background-color: $amo-color;
 }
 
+.openup {
+    background-color: $openup;
+}
+
 .head-off{
     background-color: $head-off-color;
 }
@@ -210,6 +214,15 @@
         font-weight: bold;
     }
 
+}
+
+.image-content-row {
+    display: flex;
+    flex-direction: row;
+
+    & img {
+        width: 50%;
+    }
 }
 
 .image-content-gif {

@@ -301,9 +301,13 @@ h4 {
     margin-left: 0%; }
   .carrousel-container #slide2:checked ~ .carrousel-content .testimonial:first-child {
     margin-left: -100%; }
+  .carrousel-container #slide3:checked ~ .carrousel-content .testimonial:first-child {
+    margin-left: -200%; }
   .carrousel-container #slide1:checked ~ .carousel-indicators label:first-child {
     background-color: #FFFFFF; }
   .carrousel-container #slide2:checked ~ .carousel-indicators label:nth-child(2) {
+    background-color: #FFFFFF; }
+  .carrousel-container #slide3:checked ~ .carousel-indicators label:nth-child(3) {
     background-color: #FFFFFF; }
 
 .carrousel-content {

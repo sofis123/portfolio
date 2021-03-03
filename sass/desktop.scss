@@ -425,10 +425,18 @@ h4 {
         margin-left: -100%;
     }
 
+    #slide3:checked ~ .carrousel-content .testimonial:first-child {
+        margin-left: -200%;
+    }
+
+
     #slide1:checked ~ .carousel-indicators label:first-child {
         background-color: $white-color;
     }
     #slide2:checked ~ .carousel-indicators label:nth-child(2) {
+        background-color: $white-color;
+    }
+    #slide3:checked ~ .carousel-indicators label:nth-child(3) {
         background-color: $white-color;
     }
 }
