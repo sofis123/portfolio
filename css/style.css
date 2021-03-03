@@ -798,4 +798,6 @@ h4 {
   .layout-grid {
     flex-direction: column; }
     .layout-grid .description {
-      width: 100%; } }
+      width: 100%; }
+  .youtube {
+    width: 100%; } }
